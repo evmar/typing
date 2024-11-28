@@ -1,0 +1,13 @@
+{
+  "name": "typing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "esbuild --bundle --watch --servedir=. --outfile=typing.js --format=esm main.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "pixi.js": "^8.6.1",
+    "typescript": "^5.7.2"
+  }
+}
