@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "esbuild --bundle --watch --servedir=. --outfile=typing.js --format=esm main.ts"
+    "serve": "esbuild --bundle --watch --servedir=. --outfile=typing.js --format=esm main.ts",
+    "build": "esbuild --bundle --outfile=typing.js --format=esm main.ts"
   },
   "dependencies": {
     "esbuild": "^0.24.0",
